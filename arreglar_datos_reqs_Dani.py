@@ -360,7 +360,7 @@ def export_results():
             docs["DOC"] = docs["DOC"].str.upper()
             
             for doc_rues in consulta_rues["NIT"]:
-                #print(doc_rues)
+                print(doc_rues)
                 for doc in docs["DOC"]:
                     if doc_rues in doc:
                         print("Aww Yeah!")
